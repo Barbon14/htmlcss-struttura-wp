@@ -10,7 +10,7 @@ body {
 }
 
 /* intestazione pagina */
-header {
+.maintitle {
     height: 100px;
     /* regole di debug */
     background-color: plum;
@@ -22,6 +22,47 @@ header {
     /* regole di debug */
     height: 400px;
     background-color: sandybrown;
+}
+
+.container {
+    margin: 10px 0;
+    /* regole di debug */
+    background-color: royalblue;
+
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container *{
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    height: 80px;
+    /* regole di debug */
+    background-color: skyblue;
+}
+
+.correlati {
+    float: right;
+    height: 450px;
+    width: 15%;
+    /* regole di debug */
+    background-color: skyblue;
+}
+
+.contenuto {
+    float: right;
+    width: 66%;
+    margin: 0 2%;    
+    /* regole di debug */
+    height: 450px;
+
+    background-color: skyblue;
 }
 
 /* footer */
