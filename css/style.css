@@ -1,0 +1,32 @@
+/* inpostazioni generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px 5%;
+}
+
+/* intestazione pagina */
+header {
+    height: 100px;
+    /* regole di debug */
+    background-color: plum;
+}
+
+/* contenuto pagina */
+.incipit {
+    margin: 20px 0;
+    /* regole di debug */
+    height: 400px;
+    background-color: sandybrown;
+}
+
+/* footer */
+footer {
+    height: 60px;
+    /* regole di debug */
+    background-color: rebeccapurple;
+}
