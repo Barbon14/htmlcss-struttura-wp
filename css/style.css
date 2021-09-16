@@ -37,7 +37,7 @@ body {
     clear: both;
 }
 
-.container *{
+.container > *{
     margin-bottom: 20px;
 }
 
